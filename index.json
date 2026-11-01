@@ -1,0 +1,20 @@
+{
+  "schema": 1,
+  "name": "TipCL 官方插件市场",
+  "plugins": [
+    {
+      "id": "hello-plugin",
+      "name": "Hello 插件（示例）",
+      "version": "0.1.0",
+      "author": "TipCL",
+      "description": "演示 Node 插件的全部能力：页面、AI 标签、浮层、首页卡片、设置与凭据、agent 预设与工具、SSE 路由、llm.stream、启动钩子、跨插件服务。",
+      "homepage": "https://github.com/wfwwq/TipCL/tree/main/samples/hello-plugin",
+      "verified": true,
+      "download": {
+        "url": "https://github.com/wfwwq/TipCL-market/releases/download/plugin-hello-0.1.0/hello-plugin-0.1.0.zip",
+        "sha256": "4346449affa5fddfa875a16a71a8853deeb2992818b3091790aa10a63a8e929c",
+        "size": 13819
+      }
+    }
+  ]
+}
