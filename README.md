@@ -13,6 +13,7 @@ https://raw.githubusercontent.com/wfwwq/TipCL-market/main/index.json
 | 插件 | 版本 | 说明 |
 |---|---|---|
 | [hello-plugin](https://github.com/wfwwq/TipCL/tree/main/samples/hello-plugin) | 0.1.0 | 官方示例：演示页面、AI 标签、浮层、首页卡片、凭据、预设、工具、启动钩子等全部能力 |
+| [dsh-game](https://github.com/luckui/dsh-game) | 0.1.3 | 大肥鱼玩 Minecraft：AI 以鲸鱼娘身份自己进服游玩，砍树、合成、挖矿、盖房、种地、去下界，边玩边说 |
 
 ## 提交你的插件
 
@@ -28,6 +29,7 @@ https://raw.githubusercontent.com/wfwwq/TipCL-market/main/index.json
   "author": "你的名字",
   "description": "一句话说明",
   "homepage": "https://github.com/你/仓库",
+  "icon": "https://raw.githubusercontent.com/wfwwq/TipCL-market/main/icons/my-plugin.png",
   "verified": false,
   "download": {
     "url": "https://github.com/wfwwq/TipCL-market/releases/download/plugin-my-plugin-1.0.0/my-plugin-1.0.0.zip",
@@ -49,6 +51,7 @@ https://raw.githubusercontent.com/wfwwq/TipCL-market/main/index.json
   - `download.url` / `download.sha256`：必填，sha256 必须是 64 位十六进制；安装时会校验，不符拒绝安装
   - `download.size`：可选，字节数
   - `verified`：可选，是否已审核
+  - `icon`：可选，市场列表里显示的图标地址（http(s) URL 或 data URI，建议 64×64 以上 PNG/JPG）；可把图标文件放到本仓库 `icons/` 目录，用 raw 地址引用
   - 其余字段（`name` / `author` / `description` / `homepage` 等）透传给启动器展示
 
 启动器支持同时填多个市场索引，按 `plugins[].id` 先到先得合并。

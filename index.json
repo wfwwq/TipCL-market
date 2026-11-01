@@ -9,6 +9,7 @@
       "author": "TipCL",
       "description": "演示 Node 插件的全部能力：页面、AI 标签、浮层、首页卡片、设置与凭据、agent 预设与工具、SSE 路由、llm.stream、启动钩子、跨插件服务。",
       "homepage": "https://github.com/wfwwq/TipCL/tree/main/samples/hello-plugin",
+      "icon": "https://raw.githubusercontent.com/wfwwq/TipCL-market/main/icons/hello-plugin.png",
       "verified": true,
       "download": {
         "url": "https://github.com/wfwwq/TipCL-market/releases/download/plugin-hello-0.1.0/hello-plugin-0.1.0.zip",
@@ -23,6 +24,7 @@
       "author": "luckui（原作）· TipCL 移植",
       "description": "让 AI 以鲸鱼娘「大肥鱼」的身份自己进 Minecraft 服务器玩：砍树、合成、挖矿、盖房、种地、去下界，边玩边说，你在旁边看。移植自 luckui/dsh-game。",
       "homepage": "https://github.com/luckui/dsh-game",
+      "icon": "https://raw.githubusercontent.com/wfwwq/TipCL-market/main/icons/dsh-game.jpg",
       "verified": true,
       "download": {
         "url": "https://github.com/wfwwq/TipCL-market/releases/download/plugin-dsh-game-0.1.3/dsh-game-0.1.3.zip",
